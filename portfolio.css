@@ -1,0 +1,46 @@
+body.index, h2 {
+    text-align: center;
+    font-family: Verdana;
+}
+
+ul.active {
+    font-family: Verdana;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+div {
+    /* text-align: center; */
+    font-family: Verdana;
+    font-size: 14px;
+    margin: auto;
+    float: left;
+    margin-left: 35em;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    font-family: Verdana;
+    display: block;
+    width: 150px;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
